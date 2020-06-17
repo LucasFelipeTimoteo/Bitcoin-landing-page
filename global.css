@@ -1,0 +1,53 @@
+:root {
+    --bg-primary: #2a2a2a;
+    --bg-secondary: #f5f5f5;
+
+    --logo-btc: #f39c12;
+
+    --btn-color-primary: #f39c12;
+    --btn-color-secondary: #F37335;
+
+    --text-color-primary: #f5f5f5;
+    --text-color-secondary: #2a2a2a;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background: var(--btn-color-primary);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: var(--bg-primary);
+}
+   
+  ::-webkit-scrollbar-thumb {
+    background: var(--btn-color-primary); 
+    border-radius: 50px;
+  }
+
+
+body {
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.bitcoin, .blockchain, .wallet {
+    min-height: 100vh;
+    padding-top: 20px;
+
+    display: grid;
+    grid-auto-rows: min-content;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.bitcoin *, .blockchain *, .wallet * {
+    width: 60vw;
+    margin: 12px 0 12px 0;
+}

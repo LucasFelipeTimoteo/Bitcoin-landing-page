@@ -1,0 +1,21 @@
+/* NAVBAR */
+.navbar-items {
+    max-width: 90vw;
+}
+
+.navbar-item {
+    font-size: .8rem;
+    margin: 0 5px 0 5px;
+}
+
+/* main texts */
+
+.bitcoin *, .blockchain *, .wallet * {
+    font-size: 1.2rem;
+    width: 70vw;
+    margin: 12px 0 12px 0;
+}
+
+.contributors-list {
+    grid-template-columns: repeat(2, 1fr);
+}
