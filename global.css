@@ -34,12 +34,15 @@
 
 body {
     overflow-x: hidden;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .bitcoin, .blockchain, .wallet {
     min-height: 100vh;
     padding-top: 20px;
+    font-size: 1.6rem;
+    font-weight: 100;
+    letter-spacing: 1px;
 
     display: grid;
     grid-auto-rows: min-content;
